@@ -6,7 +6,8 @@ ddd_cidades = {
     32: "Juiz de Fora",
     19: "Campinas",
     27: "Vitoria",
-    31: "Belo Horizonte"
+    31: "Belo Horizonte",
+    85: "Ceará"
 }
 
 ddd = int(input())
