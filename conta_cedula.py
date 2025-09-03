@@ -1,4 +1,10 @@
-valor = int(input('informe um valor para calcular a quantidade de notas: '))
+while True:
+    valor = int(input('informe um valor para calcular a quantidade de notas: '))
+    if valor < 0:
+        print('numero invalido , tente outro.')
+    else:
+        break
+
 
 notas = [100, 50, 20, 10, 5, 2, 1]
 
