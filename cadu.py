@@ -21,7 +21,6 @@ def mostrar_cabecalho(mensagem:str):
 
 
 
-mostrar_cabecalho('mensagem configuravel')
 
 
 

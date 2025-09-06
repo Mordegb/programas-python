@@ -13,6 +13,13 @@ def pegar_valor():
     cadu.limpar_tela()
     imprimir_tabela(inic,valor,intervalo,salto)
 
+def mostrar_infos(num:int)
+    print(f'QUADRADO: {num **2 :.2f}')
+    print(f'RAIZ: {num ** 0,5 :.2f}')
+    print(f'QUADRADO: {num **2 :.2f}')
+    print(f'QUADRADO: {num **2 :.2f}')
+    print(f'QUADRADO: {num **2 :.2f}')
+
 pegar_valor()
 
 
