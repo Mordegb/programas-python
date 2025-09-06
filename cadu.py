@@ -12,16 +12,16 @@ PI = 3.141596
 def limpar_tela():  #limpa o terminal antes de mostrar algo novo
     os.system('cls' if os.name == 'nt' else 'clear') #o comando os.system executa um comando no terminal
 
-def exibir_cabecalho():
+def mostrar_cabecalho(mensagem:str):
     # escolha a mensagem e a cor dependendo do uso
-    print(Fore.YELLOW + "=" * 50)
-    print(Fore.CYAN + "GERADOR AVANÇADO DE TABUADA".center(50))
-    print(Fore.YELLOW + "=" * 50)
+    print(Fore.LIGHTGREEN_EX + "=" * 50)
+    print(Fore.LIGHTCYAN_EX + mensagem.center(50))
+    print(Fore.LIGHTGREEN_EX + "=" * 50)
     print()
 
 
 
-
+mostrar_cabecalho('mensagem configuravel')
 
 
 
