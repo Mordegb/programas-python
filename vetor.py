@@ -2,7 +2,7 @@ tam = int(input('informe o tamanho do veto: '))
 vetor = [] #cria o vetor com tamenho dinamico (so da assim...)
 
 for i in range(tam):
-    num = int(input(f'vetor[{i}]: '))
+    num = int(input(f'vetor[{i + 1}]: '))
     vetor.append(num) # comando "append" adiciona um numero ao final do vetor
 
 maior = vetor[0]
