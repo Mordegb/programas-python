@@ -19,6 +19,13 @@ def mostrar_cabecalho(mensagem:str):
     print(Fore.LIGHTGREEN_EX + "=" * 50)
     print()
 
+def pega_porcent(porcent:int,valor:float) ->float:
+     #porcente é quantidade em porcentagem doque deseja, reduzir o outro é o numero
+    resultado = (valor * (porcent/100))
+    return(resultado)
+
+
+
 
 
 
