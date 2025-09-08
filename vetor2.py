@@ -12,6 +12,6 @@ for i in range(len(vetor)):
         menor = vetor[i]
     
 
-print(maior)
-print(menor)
+print(f'Maior numero do array: {maior:.2f}')
+print(f'Menor numero do array: {menor:.2f}')
 
