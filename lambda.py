@@ -9,3 +9,8 @@ print(list(lista2))
 teste1 = lambda x: x ** 2
 print(teste1(4))
 
+#vc pode tambem dar as opções doque dizer em certos casos
+# Aplicar função condicional
+numeros = [1, 2, 3, 4, 5, 6]
+resultado = map(lambda x: 'par' if x % 2 == 0 else 'ímpar', numeros)
+print(list(resultado))  # ['ímpar', 'par', 'ímpar', 'par', 'ímpar', 'par']
