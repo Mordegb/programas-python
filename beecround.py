@@ -6,3 +6,4 @@ produto = {
 
 for item in sum(produto.items()):
     print(f'produto:{item}')
+#tem que estudar mais listas
