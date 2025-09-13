@@ -7,3 +7,4 @@ produto = {
 for item in sum(produto.items()):
     print(f'produto:{item}')
 #tem que estudar mais listas
+#pq não to conseguindo enviar os codigos mds
