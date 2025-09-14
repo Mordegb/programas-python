@@ -1,2 +1,2 @@
 reposotorio criado para guardar meu codigos que estou criando em quanto estudo e aprendo python.
-final do S1 inicio do S2
+final do S1 inicio do S2,jaja seguindo para poo...
