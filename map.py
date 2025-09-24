@@ -46,5 +46,9 @@ nomes = ['João', 'MARIA', 'Pedro']
 minusculas = map(str.lower, nomes)
 print(list(minusculas))  # ['joão', 'maria', 'pedro']
 
+nomes2 = ['junin' , 'batista' , 'amanda']
+Maiusculas = map(str.upper, nomes2)
+print(list(Maiusculas)) #['JUNIN' , 'BATISTA' , 'AMANDA']
+
 
 
