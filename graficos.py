@@ -50,7 +50,7 @@ ptl.figure(figsize=(10, 6))
 ptl.plot(dias, temperaturas, 'o-', linewidth=2, markersize=8)
 ptl.title("Temperatura Durante a Semana")
 ptl.ylabel("Temperatura (°C)")
-ptl.ylim(16, 35)
+ptl.ylim(16, 35)#defini o inicio e limite do eixo y
 ptl.grid(True)#coloca linhas nas grades
 
 # Adicionar valores nos pontos
