@@ -7,6 +7,8 @@ class Pessoa: #primeira letra ao criar uma classe deve ser maiuscula
     def apresentar (self): #pode colocar so self como parametro que vc ja pode usar todos os atributos
         print(f'olá meu nome é {self.nome} e tenho {self.idade} anos. \n')
 
+
+
 pessoa1 = Pessoa("cadu" , 16 , "estudante") #semple declarar quando criar
 pessoa1.apresentar()
 
