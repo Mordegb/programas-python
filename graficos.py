@@ -6,7 +6,8 @@ temperaturaMedia = [30.4 , 27.3 , 30 , 40]
 
 #criar grafico de barras:
 ptl.bar(cidades , temperaturaMedia ,color=['yellow' ,'blue','green','red'])
-ptl.ylabel('temperatura media (C)')
+ptl.ylabel('temperatura media (C)') #diz o eixo y do seu grafico
+ptl.xlabel('cidades') #diz o eixo x do seu grafico
 ptl.show() #o comando ptl.show mostra seu grafico
 
 #criar grafco de linhas
@@ -27,6 +28,7 @@ y1 = [1, 4, 9, 16, 25]  # x²
 y2 = [1, 2, 3, 4, 5]    # x
 y3 = [1, 8, 27, 64, 125] # x³
 
+#grafico cm varias linhas
 ptl.plot(x, y1, label='x²', marker='o')
 ptl.plot(x, y2, label='x', marker='s')
 ptl.plot(x, y3, label='x³', marker='^')
@@ -40,7 +42,6 @@ ptl.show()
 
 
 
-
 # Dados de temperatura durante a semana
 dias = ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom']
 temperaturas = [22, 24, 19, 25, 27, 30, 28]
@@ -50,7 +51,7 @@ ptl.plot(dias, temperaturas, 'o-', linewidth=2, markersize=8)
 ptl.title("Temperatura Durante a Semana")
 ptl.ylabel("Temperatura (°C)")
 ptl.ylim(16, 35)
-ptl.grid(True)
+ptl.grid(True)#coloca linhas nas grades
 
 # Adicionar valores nos pontos
 for i, temp in enumerate(temperaturas):
